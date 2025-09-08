@@ -9,7 +9,7 @@ version: 2
 name: Hariprasanth Venkataramachetty
 title: Full Stack Engineer | @PayPal Ex:Cisco, Intuit.
 email: hariprasanth89@gmail.com
-website: https://hariprasanth89.github.io/
+website: https://hariprasanth89.github.io/hariprasanth
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -33,7 +33,7 @@ linkedin_username: hariprasanth-venkatarama-chetty-19193723
 additional_links:
 - title: My homepage
   icon: fas fa-globe
-  url: https://hariprasanth89.github.io
+  url: https://hariprasanth89.github.io/hariprasanth
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)

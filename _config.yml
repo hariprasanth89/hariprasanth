@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Hariprasanth Venkataramachetty
-title: Full Stack Engineer | @PayPal
+title: Full Stack Engineer | @PayPal Ex:Cisco, Intuit.
 email: hariprasanth89@gmail.com
 website: https://hariprasanth89.github.io/
 
@@ -49,8 +49,8 @@ additional_links:
 about_profile_image: images/profile_hari.jpg
 about_content: | # this will include new lines to allow paragraphs
   Welcome to my personal website! <br><br>
-  I am **Kunal Nandi**, a **Tech Lead in Software Engineering in Test** with over **16 years of experience** in **quality assurance, test automation, and DevOps**. My expertise spans **backend API automation, UI automation, fintech security, and large-scale system testing**. <br><br>
-  I have worked with **industry leaders like TikTok, Upstart, Amazon, and Visa**, where I played a **pivotal role in leading test automation initiatives, mentoring teams, and optimizing software testing workflows**. I specialize in **building scalable automation frameworks**, streamlining **CI/CD pipelines**, and ensuring robust **end-to-end testing** for mission-critical applications.
+  I am **Hariprasanth Venkataramachetty**, a **Full Stack Software Engineer** with over **13 years of experience** in **backend and frontend development, cloud platforms, and DevOps practices**. Skilled in **Java, Spring Boot, Node.js, React, and cloud services (AWS, GCP, Azure)**, with a strong focus on **scalable application design, API development, and secure authentication (OAuth2, SSO, API keys)**.<br><br>
+  Worked with **leading clients such as PayPal, Cisco, and Intuit**, contributing to **large-scale system development, CI/CD pipeline automation (Jenkins, Harness), and infrastructure migration**. Experienced in **microservices architecture, database management (SQL/NoSQL), and Agile/Scrum methodologies**, with a proven ability to **collaborate across cross-functional teams** and deliver high-quality, secure software solutions.
 
 content:
   # - title: Projects # Title for the section
@@ -76,86 +76,118 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: TikTok
-        link: https://www.tiktok.com
-        # link_text: boringcompany.com
-        sub_title: Engineering Lead in Software Engineering in Test
-        caption: November 2022 - Present
+        title: PayPal
+        link: https://www.paypal.com And https://www.venmo.com
+        sub_title: Full Stack Engineer
+        caption: October 2024 - Present
         quote: >
-          Leading API automation and functional testing for TikTok's global payment systems, ensuring seamless deployments and high-quality software delivery.
+          Contributed to PayPal and Venmo engineering initiatives, focusing on full-stack development, CI/CD automation, and secure API integrations.
         description: | # this will include new lines to allow paragraphs
-            Joined as the first full-time engineer in the Global Payment team and built the TikTok USDS Global Payment QA team from scratch. Developed automation frameworks, integrated test suites into CI/CD pipelines, and improved testing efficiency through strategic planning and execution, while leading team of 6+ SDETs.
+            Collaborated with designers, QA, and business teams to deliver projects using Agile/Scrum methodologies. 
+            Developed and deployed Spring Boot applications on AWS Beanstalk, integrating REST and SOAP APIs for scalable services. 
+            Optimized microservices through caching, asynchronous fetching, and secure authentication with OAuth2 and SSO. 
+            Ensured secure API integrations within ECM and payment platforms by implementing OAuth2 and API keys. 
+
+            Contributed to CI/CD processes with Jenkins and Harness, including IAM roles and secure VPC design for reliable deployments. 
+            Wrote, reviewed, and tested Java and Node.js code while resolving defects during integration phases. 
+            Automated builds and dependency management using Jenkins, Harness, and Git pipelines. 
+            Led SDLC initiatives with strong emphasis on Agile practices such as sprint planning, backlog grooming, and retrospectives.
 
       - layout: left
-        title: Upstart
-        link: https://www.upstart.com
-        sub_title: Senior Product Quality Engineer
-        caption: January 2022 - November 2022
+        title: Cisco
+        link: https://www.cisco.com
+        sub_title: Full Stack Engineer
+        caption: March 2024 - September 2024
         quote: >
-          Spearheaded UI automation testing for Upstart's loan products, improving release cycles and ensuring high test coverage.
+          Contributed to Cisco’s Estimates, Quoting, Ordering, and Subscriptions/Renewals modules, driving backend development and system integrations.
         description: |
-          Led the development of a Python-Selenium-based UI automation framework. Integrated automated daily smoke testing into CI/CD pipelines, ensuring product stability for newly launched loan products.
+          Worked extensively on core modules, delivering backend and integration workflows with Spring Boot and Hibernate. 
+          Utilized advanced Hibernate features such as inheritance, lazy loading, dirty checking, optimistic locking, and transaction management for efficient data handling. 
+          Followed Agile practices including pair programming, TDD, and daily Scrum meetings to ensure iterative and collaborative delivery. 
+
+          Built backend services across multiple layers (Entity/Model, DAO/Repository, Service, Controller, Business, Persistence) and created RESTful APIs validated via Postman for client and third-party integrations. 
+          Developed frontend interfaces using React Class Components, managing state effectively to support business workflows. 
+          Maintained unit testing frameworks with JUnit, writing comprehensive test cases for stability and functionality. 
+
+          Tracked project tasks using JIRA for transparency and progress updates, while managing Git repositories with branching strategies, pull requests, and merges. 
+          Actively contributed to all phases of the SDLC, including sprint planning, backlog grooming, and retrospectives, ensuring alignment with Agile methodologies.
     
       - layout: left
-        title: Amazon Lab126
-        link: https://www.amazon.com
-        sub_title: QAE-II
-        caption: December 2019 - January 2022
+        title: Worldscape Inc.
+        link: https://www.worldscapeinc.com
+        sub_title: Full Stack Engineer
+        caption: September 2023 - February 2024
         quote: >
-          Played a crucial role in end-to-end testing and automation for Amazon’s Astro Robot, ensuring smooth navigation and performance.
+          Developed and maintained scalable web applications with React and Node.js, improving user experience and platform performance.
         description: |
-          Led E2E testing initiatives for Amazon’s Astro robot, covering SLAM and navigation testing. Developed automation scripts using Pytest and managed a QA/QAT team, ensuring robust quality standards before product launch.
+          Built and maintained web applications using JavaScript, React, and Node.js, ensuring responsive and efficient functionality. 
+          Collaborated closely with designers to deliver intuitive, user-friendly interfaces that enhanced customer experience. 
+          Integrated APIs across multiple platforms to extend application features and improve system interoperability. 
+
+          Proactively troubleshot and resolved software defects to maintain performance and reliability. 
+          Eliminated system bottlenecks and crashes through optimization, significantly improving overall user experience.
     
       - layout: left
-        title: Visa Inc.
-        link: https://www.visa.com
-        sub_title: Staff Software Engineer / Staff QA Engineer / Senior QA Engineer
-        caption: February 2015 - November 2019
+        title: Intuit.
+        link: https://www.intuit.com
+        sub_title: Full Stack Engineer
+        caption: February 2022 - August 2023
         quote: >
-          Contributed to Visa Tokenization Services and multiple digital payment solutions, ensuring secure and seamless transactions.
+          Designed and developed full-stack applications for Intuit using Spring Boot, Hibernate, and React, ensuring scalable and maintainable software solutions.
         description: |
-          Led integration testing efforts for Visa’s Tokenization Services, including Apple Pay integration. Managed successful testing of QR-based payment solutions, working closely with Chase and Google. Developed an end-to-end automation suite for Visa Token Service APIs using Java and TestNG.
+          Developed backend services using Spring Boot, implementing multiple layers including Entity/Model, DAO/Repository, Controller, Service, Business, and Persistence. 
+          Designed and created database schemas, integrating them with the application using Hibernate (ORM) for efficient object-relational mapping. 
+          Implemented batch processing with Spring Batch to extract and load data from CSV/Excel files into database tables. 
+
+          Created and validated RESTful APIs for data operations, leveraging Postman for endpoint testing. 
+          Built frontend applications using React Class Components, effectively managing state for smooth user interactions. 
+          Wrote comprehensive unit tests with JUnit to ensure code quality and reliability. 
+
+          Tracked project progress with JIRA, managing tasks transparently within Agile workflows. 
+          Maintained version control using Git, overseeing repositories, branching strategies, pull requests, and merges. 
+          Actively participated in all phases of the SDLC, contributing to sprint planning, backlog grooming, daily stand-ups, and retrospectives.
     
       - layout: left
-        title: Other Experiences
-        sub_title: Senior QA Analyst & Software Engineer
-        caption: 2008 - 2015
+        title: Trie Coders Pvt Ltd.
+        link: https://www.triecoders.com
+        sub_title: Sr. Software Engineer, 
+        caption: Dec 2017 - Nov 2021
         quote: >
-          Extensive experience in test automation, API testing, and system integration across various organizations.
+          Experienced in backend development, microservices, and API integration for banking and financial applications.
         description: |
-          At T-Mobile, led mobile app testing and telecom billing applications. At Visa (2008-2014), worked on quality assurance for VIP applications using TPF/zTPF systems. Contributed to multiple payment security projects and integration testing for major financial institutions.
+          Worked on a banking app enabling users to manage accounts and transactions. Implemented backend services for updating user personal information and developed multiple modules. Optimized microservices using Lombok, participated in agile sprints and daily scrums, and contributed to code reviews and meetings. Managed JSON request-response flows between UI and API teams, and deployed Java-based services on AWS Beanstalk for scalability and reliability.
 
 
-  - title: Published Articles # Title for the section
-    layout: text # Type of content section (list/text)
-    content: |
-      ## **<i class="fas fa-book"></i> Designing Scalable Multi-Agent AI Systems: Leveraging Domain-Driven Design and Event Storming**
-      **Publishing Date:** March 2025  
-      **Publisher:** IJCSE (SSRG International Journal of Computer Science and Engineering)
-      **Abstract:**
-      _"Multi-Agent AI Systems (MAS) are increasingly used to tackle complex real-world problems. By 2025, 82% of orgnizations plan to integrate AI agents (1), with 25% already deploying them (2). This paper explores how combining Event Storming and Domain-Driven Design (DDD) provides a structured approach to designing effective MAS. The integration of these methodologies enhances scalability, robustness, and domain alignment. We demonstrate this approach using a supply chain management case study and discuss best practices for scaling and optimizing MAS."_
+  # - title: Published Articles # Title for the section
+  #   layout: text # Type of content section (list/text)
+  #   content: |
+  #     ## **<i class="fas fa-book"></i> Designing Scalable Multi-Agent AI Systems: Leveraging Domain-Driven Design and Event Storming**
+  #     **Publishing Date:** March 2025  
+  #     **Publisher:** IJCSE (SSRG International Journal of Computer Science and Engineering)
+  #     **Abstract:**
+  #     _"Multi-Agent AI Systems (MAS) are increasingly used to tackle complex real-world problems. By 2025, 82% of orgnizations plan to integrate AI agents (1), with 25% already deploying them (2). This paper explores how combining Event Storming and Domain-Driven Design (DDD) provides a structured approach to designing effective MAS. The integration of these methodologies enhances scalability, robustness, and domain alignment. We demonstrate this approach using a supply chain management case study and discuss best practices for scaling and optimizing MAS."_
       
-      📄 [Read the Full Article](https://www.internationaljournalssrg.org/IJCSE/2025/Volume12-Issue3/IJCSE-V12I3P102.pdf)
+  #     📄 [Read the Full Article](https://www.internationaljournalssrg.org/IJCSE/2025/Volume12-Issue3/IJCSE-V12I3P102.pdf)
       
-      <br><br>
+  #     <br><br>
 
-      ## **<i class="fas fa-book"></i> Tokenization Impact on the Payment Industry: Security, Regulatory, and Adoption**
-      **Publishing Date:** March 2025  
-      **Publisher:** IJMRA (International Journal of Management, IT & Engineering)
-      **Abstract:**
-      _"In the payment ecosystem, traditional payment methods (i.e., card transactions) expose sensitive card details like card numbers, CVV2, and expiry dates to merchants and thirdparty apps (for internet transactions) while performing digital transactions. As a result, it increases the potential for data breaches. In order to solve potential data breaches, tokenization is introduced as an innovative approach that significantly increases security and reduces fraud in payment transactions by replacing these sensitive information with randomly generated unique tokens, preventing unauthorized access. This article discusses the background, real-world case study, market, adoption trends, key participants, and advantages of tokenization in the payment industry, emphasizing its role in securing digital transactions and reducing financial fraud."_
+  #     ## **<i class="fas fa-book"></i> Tokenization Impact on the Payment Industry: Security, Regulatory, and Adoption**
+  #     **Publishing Date:** March 2025  
+  #     **Publisher:** IJMRA (International Journal of Management, IT & Engineering)
+  #     **Abstract:**
+  #     _"In the payment ecosystem, traditional payment methods (i.e., card transactions) expose sensitive card details like card numbers, CVV2, and expiry dates to merchants and thirdparty apps (for internet transactions) while performing digital transactions. As a result, it increases the potential for data breaches. In order to solve potential data breaches, tokenization is introduced as an innovative approach that significantly increases security and reduces fraud in payment transactions by replacing these sensitive information with randomly generated unique tokens, preventing unauthorized access. This article discusses the background, real-world case study, market, adoption trends, key participants, and advantages of tokenization in the payment industry, emphasizing its role in securing digital transactions and reducing financial fraud."_
       
-      📄 [Read the Full Article](https://ijmra.us/project%20doc/2025/IJME_MARCH2025/IJMIE12_March2025.pdf)
+  #     📄 [Read the Full Article](https://ijmra.us/project%20doc/2025/IJME_MARCH2025/IJMIE12_March2025.pdf)
       
-      <br><br>
+  #     <br><br>
 
-      ## **<i class="fas fa-book"></i> A Framework for Functional and Performance Testing of the Kidnap Robot Problem in AI-Powered Autonomous Navigation**
-      **Publishing Date:** March 2025  
-      **Publisher:** IRJMETS (International Research Journal of Modernization in Engineering Technology and Science)  
-      **Abstract:**
-      _"The Kidnap Robot Problem occurs when an autonomous robot, which relies on Simultaneous Localization and Mapping (SLAM) for navigation, is suddenly displaced without prior movement history. This event resets its internal localization system, and as a result, it requires rapid Relocalization to restore navigation functionality. This paper presents a structured Functional and Performance testing framework to evaluate SLAM-based Relocalization in AI-driven robots. With this framework, we will analyze robotic relocalization challenges, test the impact of sudden displacement events such as manual lifting, SLAM or navigation crashes, and sensor failures, and measure the efficacy of relocalization algorithms. Results in this paper quantify relocalization recovery time, mapping or floor plan accuracy, and navigation continuity, providing a robust methodology for validating autonomous relocalization systems."_
+  #     ## **<i class="fas fa-book"></i> A Framework for Functional and Performance Testing of the Kidnap Robot Problem in AI-Powered Autonomous Navigation**
+  #     **Publishing Date:** March 2025  
+  #     **Publisher:** IRJMETS (International Research Journal of Modernization in Engineering Technology and Science)  
+  #     **Abstract:**
+  #     _"The Kidnap Robot Problem occurs when an autonomous robot, which relies on Simultaneous Localization and Mapping (SLAM) for navigation, is suddenly displaced without prior movement history. This event resets its internal localization system, and as a result, it requires rapid Relocalization to restore navigation functionality. This paper presents a structured Functional and Performance testing framework to evaluate SLAM-based Relocalization in AI-driven robots. With this framework, we will analyze robotic relocalization challenges, test the impact of sudden displacement events such as manual lifting, SLAM or navigation crashes, and sensor failures, and measure the efficacy of relocalization algorithms. Results in this paper quantify relocalization recovery time, mapping or floor plan accuracy, and navigation continuity, providing a robust methodology for validating autonomous relocalization systems."_
       
-      📄 [Read the Full Article](https://www.irjmets.com/uploadedfiles/paper//issue_3_march_2025/68498/final/fin_irjmets1741093576.pdf)
+  #     📄 [Read the Full Article](https://www.irjmets.com/uploadedfiles/paper//issue_3_march_2025/68498/final/fin_irjmets1741093576.pdf)
       
       
 
@@ -163,36 +195,37 @@ content:
     layout: text # Changing format for better UI presentation
     content: |
 
-      ## **Senior Member, Institute of Electrical and Electronics Engineers (IEEE)**
-      **Awarded:** April 2025  
-      **Institution:** [IEEE](https://www.ieee.org/)  
+      # ## **Senior Member, Institute of Electrical and Electronics Engineers (IEEE)**
+      # **Awarded:** April 2025  
+      # **Institution:** [IEEE](https://www.ieee.org/)  
     
-      🎖 Recognized for **expertise in fintech security, automation, and software quality assurance**. Achieving this prestigious fellowship highlights my contributions to **software engineering, payments security, and automation testing**.
-      <br><br>
+      # 🎖 Recognized for **expertise in fintech security, automation, and software quality assurance**. Achieving this prestigious fellowship highlights my contributions to **software engineering, payments security, and automation testing**.
+      # <br><br>
 
-      ## **Fellow, Soft Computing Research Society (SCRS)**
-      **Awarded:** March 2025  
-      **Institution:** [SCRS](https://scrs.in/scrs-fellow/358)  
+      # ## **Fellow, Soft Computing Research Society (SCRS)**
+      # **Awarded:** March 2025  
+      # **Institution:** [SCRS](https://scrs.in/scrs-fellow/358)  
     
-      🎖 Kunal Nandi is a Lead SDET in the payments and AI automation industry, with expertise in payment security, test automation, and robotic AI systems. He has played a pivotal role in Visa Token Services (Google Pay, Samsung Pay), TikTok Global Payments automation, Upstart AI-based lending, and Amazon Astro home robotics testing. His research focuses on tokenization security, blockchain-based payments, and automation in fintech & AI-driven robotics. He has authored scholarly articles on tokenization and fintech automation and actively participates in technology judging panels.**.
-      <br><br>
+      # 🎖 Kunal Nandi is a Lead SDET in the payments and AI automation industry, with expertise in payment security, test automation, and robotic AI systems. He has played a pivotal role in Visa Token Services (Google Pay, Samsung Pay), TikTok Global Payments automation, Upstart AI-based lending, and Amazon Astro home robotics testing. His research focuses on tokenization security, blockchain-based payments, and automation in fintech & AI-driven robotics. He has authored scholarly articles on tokenization and fintech automation and actively participates in technology judging panels.**.
+      # <br><br>
 
 
-      ## **Fellow, Institution of Electronics and Telecommunication Engineers (IETE)**
-      **Awarded:** March 2025  
-      **Institution:** [IETE](https://www.iete.org/)  
+      # ## **Fellow, Institution of Electronics and Telecommunication Engineers (IETE)**
+      # **Awarded:** March 2025  
+      # **Institution:** [IETE](https://www.iete.org/)  
     
-      🎖 Recognized for **expertise in fintech security, automation, and software quality assurance**. Achieving this prestigious fellowship highlights my contributions to **software engineering, payments security, and automation testing**.
-      <br><br>
+      # 🎖 Recognized for **expertise in fintech security, automation, and software quality assurance**. Achieving this prestigious fellowship highlights my contributions to **software engineering, payments security, and automation testing**.
+      # <br><br>
 
       ---
     
-      ## **Jalpaiguri Government Engineering College**
-      **Years:** 2004 - 2008  
-      **Degree:** B.Tech in Electronics & Communication Engineering  
-      **Institution:** [JGEC](https://www.jgec.ac.in)  
+      ## **Sathyabama University**
+      **Years:** 2007 - 2011  
+      **Degree:** BE CSE - Bachulor of Engineering  
+      **Major:** Computer Science and Engineering
+      **Institution:** [Sathyabama University](https://sathyabama.ac.in)
     
-      🎓 Graduated with a **B.Tech in Electronics & Communication Engineering**, laying the foundation for a career in **technology, software engineering, and automation testing**. Developed a strong foundation in **electronics, communication systems, and software engineering principles**.
+      🎓 Graduated with a **BE CSE Bachulor of Engineering, Specialization in Computer Science and Engineering**, laying the foundation for a career in **Developed skills in software development**. Developed a strong foundation in **Computer Science and software engineering principles**.
     
       ---
 

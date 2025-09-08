@@ -1,0 +1,213 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Hariprasanth Venkataramachetty
+title: Full Stack Engineer | @PayPal
+email: hariprasanth89@gmail.com
+website: https://hariprasanth89.github.io/
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+github_username:  hariprasanth89
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: hariprasanth-venkatarama-chetty-19193723
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: My homepage
+  icon: fas fa-globe
+  url: https://hariprasanth89.github.io
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile_hari.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Welcome to my personal website! <br><br>
+  I am **Kunal Nandi**, a **Tech Lead in Software Engineering in Test** with over **16 years of experience** in **quality assurance, test automation, and DevOps**. My expertise spans **backend API automation, UI automation, fintech security, and large-scale system testing**. <br><br>
+  I have worked with **industry leaders like TikTok, Upstart, Amazon, and Visa**, where I played a **pivotal role in leading test automation initiatives, mentoring teams, and optimizing software testing workflows**. I specialize in **building scalable automation frameworks**, streamlining **CI/CD pipelines**, and ensuring robust **end-to-end testing** for mission-critical applications.
+
+content:
+  # - title: Projects # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: top-middle
+  #       title: Super awesome project
+  #       link: github.com/sproogen
+  #       # link_text: Project Website
+  #       additional_links:
+  #         - title:  sproogen/modern-resume-theme
+  #           icon: fab fa-github
+  #           url: github.com/sproogen/modern-resume-theme
+  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #         #   icon: fab fa-github
+  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+  #       quote: >
+  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+  #       description: | # this will include new lines to allow paragraphs
+  #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: TikTok
+        link: https://www.tiktok.com
+        # link_text: boringcompany.com
+        sub_title: Engineering Lead in Software Engineering in Test
+        caption: November 2022 - Present
+        quote: >
+          Leading API automation and functional testing for TikTok's global payment systems, ensuring seamless deployments and high-quality software delivery.
+        description: | # this will include new lines to allow paragraphs
+            Joined as the first full-time engineer in the Global Payment team and built the TikTok USDS Global Payment QA team from scratch. Developed automation frameworks, integrated test suites into CI/CD pipelines, and improved testing efficiency through strategic planning and execution, while leading team of 6+ SDETs.
+
+      - layout: left
+        title: Upstart
+        link: https://www.upstart.com
+        sub_title: Senior Product Quality Engineer
+        caption: January 2022 - November 2022
+        quote: >
+          Spearheaded UI automation testing for Upstart's loan products, improving release cycles and ensuring high test coverage.
+        description: |
+          Led the development of a Python-Selenium-based UI automation framework. Integrated automated daily smoke testing into CI/CD pipelines, ensuring product stability for newly launched loan products.
+    
+      - layout: left
+        title: Amazon Lab126
+        link: https://www.amazon.com
+        sub_title: QAE-II
+        caption: December 2019 - January 2022
+        quote: >
+          Played a crucial role in end-to-end testing and automation for Amazon’s Astro Robot, ensuring smooth navigation and performance.
+        description: |
+          Led E2E testing initiatives for Amazon’s Astro robot, covering SLAM and navigation testing. Developed automation scripts using Pytest and managed a QA/QAT team, ensuring robust quality standards before product launch.
+    
+      - layout: left
+        title: Visa Inc.
+        link: https://www.visa.com
+        sub_title: Staff Software Engineer / Staff QA Engineer / Senior QA Engineer
+        caption: February 2015 - November 2019
+        quote: >
+          Contributed to Visa Tokenization Services and multiple digital payment solutions, ensuring secure and seamless transactions.
+        description: |
+          Led integration testing efforts for Visa’s Tokenization Services, including Apple Pay integration. Managed successful testing of QR-based payment solutions, working closely with Chase and Google. Developed an end-to-end automation suite for Visa Token Service APIs using Java and TestNG.
+    
+      - layout: left
+        title: Other Experiences
+        sub_title: Senior QA Analyst & Software Engineer
+        caption: 2008 - 2015
+        quote: >
+          Extensive experience in test automation, API testing, and system integration across various organizations.
+        description: |
+          At T-Mobile, led mobile app testing and telecom billing applications. At Visa (2008-2014), worked on quality assurance for VIP applications using TPF/zTPF systems. Contributed to multiple payment security projects and integration testing for major financial institutions.
+
+
+  - title: Published Articles # Title for the section
+    layout: text # Type of content section (list/text)
+    content: |
+      ## **<i class="fas fa-book"></i> Designing Scalable Multi-Agent AI Systems: Leveraging Domain-Driven Design and Event Storming**
+      **Publishing Date:** March 2025  
+      **Publisher:** IJCSE (SSRG International Journal of Computer Science and Engineering)
+      **Abstract:**
+      _"Multi-Agent AI Systems (MAS) are increasingly used to tackle complex real-world problems. By 2025, 82% of orgnizations plan to integrate AI agents (1), with 25% already deploying them (2). This paper explores how combining Event Storming and Domain-Driven Design (DDD) provides a structured approach to designing effective MAS. The integration of these methodologies enhances scalability, robustness, and domain alignment. We demonstrate this approach using a supply chain management case study and discuss best practices for scaling and optimizing MAS."_
+      
+      📄 [Read the Full Article](https://www.internationaljournalssrg.org/IJCSE/2025/Volume12-Issue3/IJCSE-V12I3P102.pdf)
+      
+      <br><br>
+
+      ## **<i class="fas fa-book"></i> Tokenization Impact on the Payment Industry: Security, Regulatory, and Adoption**
+      **Publishing Date:** March 2025  
+      **Publisher:** IJMRA (International Journal of Management, IT & Engineering)
+      **Abstract:**
+      _"In the payment ecosystem, traditional payment methods (i.e., card transactions) expose sensitive card details like card numbers, CVV2, and expiry dates to merchants and thirdparty apps (for internet transactions) while performing digital transactions. As a result, it increases the potential for data breaches. In order to solve potential data breaches, tokenization is introduced as an innovative approach that significantly increases security and reduces fraud in payment transactions by replacing these sensitive information with randomly generated unique tokens, preventing unauthorized access. This article discusses the background, real-world case study, market, adoption trends, key participants, and advantages of tokenization in the payment industry, emphasizing its role in securing digital transactions and reducing financial fraud."_
+      
+      📄 [Read the Full Article](https://ijmra.us/project%20doc/2025/IJME_MARCH2025/IJMIE12_March2025.pdf)
+      
+      <br><br>
+
+      ## **<i class="fas fa-book"></i> A Framework for Functional and Performance Testing of the Kidnap Robot Problem in AI-Powered Autonomous Navigation**
+      **Publishing Date:** March 2025  
+      **Publisher:** IRJMETS (International Research Journal of Modernization in Engineering Technology and Science)  
+      **Abstract:**
+      _"The Kidnap Robot Problem occurs when an autonomous robot, which relies on Simultaneous Localization and Mapping (SLAM) for navigation, is suddenly displaced without prior movement history. This event resets its internal localization system, and as a result, it requires rapid Relocalization to restore navigation functionality. This paper presents a structured Functional and Performance testing framework to evaluate SLAM-based Relocalization in AI-driven robots. With this framework, we will analyze robotic relocalization challenges, test the impact of sudden displacement events such as manual lifting, SLAM or navigation crashes, and sensor failures, and measure the efficacy of relocalization algorithms. Results in this paper quantify relocalization recovery time, mapping or floor plan accuracy, and navigation continuity, providing a robust methodology for validating autonomous relocalization systems."_
+      
+      📄 [Read the Full Article](https://www.irjmets.com/uploadedfiles/paper//issue_3_march_2025/68498/final/fin_irjmets1741093576.pdf)
+      
+      
+
+  - title: Education & Recognitions # Title for the section
+    layout: text # Changing format for better UI presentation
+    content: |
+
+      ## **Senior Member, Institute of Electrical and Electronics Engineers (IEEE)**
+      **Awarded:** April 2025  
+      **Institution:** [IEEE](https://www.ieee.org/)  
+    
+      🎖 Recognized for **expertise in fintech security, automation, and software quality assurance**. Achieving this prestigious fellowship highlights my contributions to **software engineering, payments security, and automation testing**.
+      <br><br>
+
+      ## **Fellow, Soft Computing Research Society (SCRS)**
+      **Awarded:** March 2025  
+      **Institution:** [SCRS](https://scrs.in/scrs-fellow/358)  
+    
+      🎖 Kunal Nandi is a Lead SDET in the payments and AI automation industry, with expertise in payment security, test automation, and robotic AI systems. He has played a pivotal role in Visa Token Services (Google Pay, Samsung Pay), TikTok Global Payments automation, Upstart AI-based lending, and Amazon Astro home robotics testing. His research focuses on tokenization security, blockchain-based payments, and automation in fintech & AI-driven robotics. He has authored scholarly articles on tokenization and fintech automation and actively participates in technology judging panels.**.
+      <br><br>
+
+
+      ## **Fellow, Institution of Electronics and Telecommunication Engineers (IETE)**
+      **Awarded:** March 2025  
+      **Institution:** [IETE](https://www.iete.org/)  
+    
+      🎖 Recognized for **expertise in fintech security, automation, and software quality assurance**. Achieving this prestigious fellowship highlights my contributions to **software engineering, payments security, and automation testing**.
+      <br><br>
+
+      ---
+    
+      ## **Jalpaiguri Government Engineering College**
+      **Years:** 2004 - 2008  
+      **Degree:** B.Tech in Electronics & Communication Engineering  
+      **Institution:** [JGEC](https://www.jgec.ac.in)  
+    
+      🎓 Graduated with a **B.Tech in Electronics & Communication Engineering**, laying the foundation for a career in **technology, software engineering, and automation testing**. Developed a strong foundation in **electronics, communication systems, and software engineering principles**.
+    
+      ---
+
+# Footer
+footer_show_references: false
+footer_content: |
+    Copyright 2025 Hariprasanth Venkataramachetty. All rights reserved. | 📧 [hariprasanth89@gmail.com](mailto:hariprasanth89@gmail.com)
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag

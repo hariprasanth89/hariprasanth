@@ -34,6 +34,9 @@ additional_links:
 - title: My homepage
   icon: fas fa-globe
   url: https://hariprasanth89.github.io/hariprasanth
+- title: Email Me
+  icon: fas fa-envelope
+  url: mailto:hariprasanth89@gmail.com
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -167,7 +170,8 @@ content:
       **Major:** Computer Science and Engineering.
       **Institution:** [Sathyabama University](https://sathyabama.ac.in)
     
-      🎓 Graduated with a **BE CSE Bachulor of Engineering, Specialization in Computer Science and Engineering**, laying the foundation for a career in **Developed skills in software development**. Developed a strong foundation in **Computer Science and software engineering principles**.
+      🎓 **Bachelor of Engineering (B.E.) in Computer Science and Engineering**
+         Graduated with a strong foundation in computer science principles and software engineering practices, developing skills in software development, problem-solving, and system design
     
       ---
 

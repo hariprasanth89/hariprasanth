@@ -100,7 +100,7 @@ content:
         title: Cisco
         link: https://www.cisco.com
         sub_title: Full Stack Engineer
-        caption: March 2024 - September 2024
+        caption: September 2023 - September 2024
         quote: >
           Contributed to Cisco’s Estimates, Quoting, Ordering, and Subscriptions/Renewals modules, driving backend development and system integrations.
         description: |
@@ -114,21 +114,6 @@ content:
 
           Tracked project tasks using JIRA for transparency and progress updates, while managing Git repositories with branching strategies, pull requests, and merges. 
           Actively contributed to all phases of the SDLC, including sprint planning, backlog grooming, and retrospectives, ensuring alignment with Agile methodologies.
-    
-      - layout: left
-        title: Worldscape Inc.
-        link: https://www.worldscapeinc.com
-        sub_title: Full Stack Engineer
-        caption: September 2023 - February 2024
-        quote: >
-          Developed and maintained scalable web applications with React and Node.js, improving user experience and platform performance.
-        description: |
-          Built and maintained web applications using JavaScript, React, and Node.js, ensuring responsive and efficient functionality. 
-          Collaborated closely with designers to deliver intuitive, user-friendly interfaces that enhanced customer experience. 
-          Integrated APIs across multiple platforms to extend application features and improve system interoperability. 
-
-          Proactively troubleshot and resolved software defects to maintain performance and reliability. 
-          Eliminated system bottlenecks and crashes through optimization, significantly improving overall user experience.
     
       - layout: left
         title: Intuit.

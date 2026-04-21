@@ -1,0 +1,249 @@
+// ============================================================
+// Custom visual enhancements — emojis, badges, cards, gradients
+// ============================================================
+
+// --- About Hero Section ---
+.about-hero {
+  .hero-greeting {
+    font-size: 1.6em;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-quote {
+    border-left: 4px solid #764ba2;
+    padding: 0.6rem 1rem;
+    background: linear-gradient(135deg, #f8f4ff 0%, #fff4f8 100%);
+    border-radius: 0 8px 8px 0;
+    font-style: italic;
+    color: #555;
+    margin: 1.2rem 0;
+  }
+}
+
+// --- About Cards Grid ---
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin: 1.2rem 0;
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.about-card {
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff8f8 100%);
+  border: 1px solid #e8e0f0;
+  border-radius: 10px;
+  padding: 14px 16px;
+  font-size: 0.92em;
+  line-height: 1.5;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(118, 75, 162, 0.12);
+  }
+
+  .card-icon {
+    font-size: 1.4em;
+    display: block;
+    margin-bottom: 4px;
+  }
+}
+
+// --- Highlight Pills ---
+.highlights-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 1rem 0;
+}
+
+.highlight-pill {
+  display: inline-block;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 0.88em;
+  font-weight: 600;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  letter-spacing: 0.3px;
+}
+
+// --- Skills Section ---
+.skills-section {
+  .skill-group {
+    margin-bottom: 1.2rem;
+
+    h4 {
+      font-size: 1em;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: #333;
+    }
+  }
+}
+
+.skill-badge {
+  display: inline-block;
+  padding: 5px 13px;
+  border-radius: 18px;
+  font-size: 0.82em;
+  font-weight: 600;
+  margin: 3px 4px 3px 0;
+  color: white;
+  letter-spacing: 0.2px;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+  cursor: default;
+
+  &:hover {
+    transform: translateY(-1px);
+    opacity: 0.9;
+  }
+
+  &.backend  { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+  &.frontend { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
+  &.cloud    { background: linear-gradient(135deg, #4facfe 0%, #00c6fb 100%); }
+  &.devops   { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); color: #1a4a3a; }
+  &.database { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); color: #3a1a00; }
+  &.tools    { background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%); color: #3a1a3a; }
+  &.arch     { background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); color: #5a2a10; }
+}
+
+// --- Tech Stack Row (in job descriptions) ---
+.tech-stack-row {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: #f8f4ff;
+  border-radius: 6px;
+  border-left: 3px solid #764ba2;
+  font-size: 0.88em;
+
+  code {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1px 6px;
+    font-size: 0.9em;
+    color: #764ba2;
+    margin: 2px;
+    display: inline-block;
+  }
+}
+
+// --- Education Card ---
+.education-card {
+  background: linear-gradient(135deg, #f8f4ff 0%, #f4f8ff 100%);
+  border: 1px solid #d8d0f0;
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-bottom: 1.5rem;
+
+  .edu-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    margin-bottom: 14px;
+
+    .edu-icon {
+      font-size: 2.2em;
+      line-height: 1;
+    }
+
+    h3 {
+      margin: 0 0 4px;
+      font-size: 1.2em;
+    }
+
+    p {
+      margin: 0;
+      color: #666;
+      font-size: 0.9em;
+    }
+  }
+
+  .edu-details {
+    margin-bottom: 12px;
+  }
+
+  .edu-row {
+    margin: 5px 0;
+    font-size: 0.95em;
+  }
+
+  .edu-desc {
+    color: #555;
+    font-size: 0.92em;
+    line-height: 1.6;
+    margin: 0;
+  }
+}
+
+// --- Section Title Enhancement ---
+.section-title,
+h2.section-title {
+  position: relative;
+}
+
+// --- Markdown table improvements ---
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0;
+  font-size: 0.92em;
+
+  th {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 10px 14px;
+    text-align: left;
+  }
+
+  td {
+    padding: 9px 14px;
+    border-bottom: 1px solid #eee;
+  }
+
+  tr:nth-child(even) td {
+    background: #f8f4ff;
+  }
+
+  tr:hover td {
+    background: #f0eaff;
+  }
+}
+
+// --- Quote / experience quote block ---
+blockquote {
+  border-left: 4px solid #764ba2;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(90deg, #f8f4ff 0%, transparent 100%);
+  color: #555;
+  font-style: italic;
+  margin: 0.8rem 0;
+  border-radius: 0 6px 6px 0;
+}
+
+// --- Mark / highlight tags ---
+mark {
+  background: linear-gradient(120deg, #ffeaa7 0%, #fdcb6e 100%);
+  padding: 1px 4px;
+  border-radius: 3px;
+}
+
+// --- Footer enhancement ---
+footer {
+  background: linear-gradient(135deg, #2d1b69 0%, #11998e 100%);
+
+  p, a {
+    color: rgba(255,255,255,0.9) !important;
+  }
+
+  a:hover {
+    color: #ffeaa7 !important;
+    text-decoration: none;
+  }
+}

@@ -1,46 +1,167 @@
 // ============================================================
-// Custom visual enhancements — badges, cards, scoped styles
+// Custom design overrides for sproogen/resume-theme
 // ============================================================
 
-// --- Skill Section Container ---
-.skills-section {
-  width: 100%;
-  padding: 0;
+// ---- 1. FIX: Website URL line-break in header ----
+.header-right p {
+  a {
+    word-break: break-all;
+    overflow-wrap: anywhere;
+  }
 }
 
-// --- Skill Group ---
-.skill-group {
-  margin-bottom: 14px;
-  line-height: 1;
+// ---- 2. Header: name, title, contact ----
+.header-container {
+  padding-top: 28px;
+  padding-bottom: 28px;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(90deg, #667eea 0%, #764ba2 50%, #f5576c 100%) 1;
 }
 
-// --- Skill Group Label (replaces h4 to avoid theme conflicts) ---
+.header-left {
+  h1 {
+    font-size: 2.6rem !important;
+    font-weight: 800 !important;
+    letter-spacing: -0.5px;
+    line-height: 1.15;
+    margin-bottom: 6px;
+  }
+
+  h2 {
+    font-size: 1.15rem !important;
+    font-weight: 400 !important;
+    opacity: 0.78;
+    line-height: 1.4;
+  }
+}
+
+.header-right {
+  p {
+    font-size: 0.95rem;
+    margin-bottom: 5px;
+    line-height: 1.5;
+
+    a {
+      font-weight: 600;
+      word-break: break-all;
+      overflow-wrap: anywhere;
+    }
+  }
+}
+
+// ---- 3. Profile image: gradient ring ----
+.profile-img {
+  box-shadow:
+    0 0 0 4px #764ba2,
+    0 0 0 8px rgba(102, 126, 234, 0.22),
+    inset 0 0 20px rgba(0, 0, 0, 0.35) !important;
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow:
+      0 0 0 5px #f5576c,
+      0 0 0 10px rgba(245, 87, 108, 0.18),
+      inset 0 0 20px rgba(0, 0, 0, 0.35) !important;
+  }
+}
+
+// ---- 4. Section titles (h3) — gradient underline ----
+.container h3 {
+  font-size: 1.55rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 22px !important;
+  padding-bottom: 10px;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 56px;
+    height: 3px;
+    border-radius: 2px;
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  }
+}
+
+// ---- 5. Experience entry: subtle top rule, better spacing ----
+.layout {
+  margin-top: 2rem !important;
+  padding-top: 1.6rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.07);
+
+  &:first-of-type {
+    border-top: none;
+  }
+}
+
+// ---- 6. Experience details column ----
+.layout .details {
+  h4 {
+    font-size: 1.65rem !important;
+    font-weight: 700 !important;
+    color: #222 !important;
+    margin-bottom: 4px !important;
+  }
+
+  p {
+    font-size: 1.45rem !important;
+
+    a {
+      font-style: normal !important;
+      font-weight: 500 !important;
+    }
+  }
+}
+
+// ---- 7. Quote block (experience quotes) ----
+p.quote {
+  background: linear-gradient(135deg, #f8f4ff 0%, #f4f8ff 100%) !important;
+  border-left: 4px solid #764ba2 !important;
+  border-radius: 0 8px 8px 0 !important;
+  padding: 0.8rem 1.4rem !important;
+  text-align: left !important;
+  font-size: 1.3rem !important;
+  color: #555 !important;
+  margin-bottom: 1rem !important;
+}
+
+// ---- 8. Skill group label (replaces h4 — avoids theme override) ----
 .skill-label {
   display: block !important;
-  font-size: 0.92em !important;
+  font-size: 0.94em !important;
   font-weight: 700 !important;
   color: #333 !important;
-  margin: 0 0 8px 0 !important;
+  margin: 14px 0 8px 0 !important;
   padding: 0 !important;
   line-height: 1.4 !important;
   visibility: visible !important;
   opacity: 1 !important;
 }
 
-// --- Skill Badges ---
+// ---- 9. Skill section container ----
+.skills-section {
+  width: 100%;
+}
+
+.skill-group {
+  margin-bottom: 6px;
+}
+
+// ---- 10. Skill badges ----
 .skill-badge {
   display: inline-block;
   padding: 4px 11px;
   border-radius: 14px;
-  font-size: 0.78em;
+  font-size: 0.79em;
   font-weight: 600;
   margin: 3px 3px 3px 0;
   color: white;
-  letter-spacing: 0.2px;
   vertical-align: middle;
+  white-space: nowrap;
   transition: transform 0.15s ease, opacity 0.15s ease;
   cursor: default;
-  white-space: nowrap;
 
   &:hover {
     transform: translateY(-1px);
@@ -57,30 +178,31 @@
   &.arch     { background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); color: #5a2a10; }
 }
 
-// --- Tech Stack Row (inside job descriptions) ---
+// ---- 11. Tech stack row (inside job descriptions) ----
 .tech-stack-row {
   margin-top: 10px;
   padding: 7px 12px;
   background: #f8f4ff;
   border-radius: 6px;
   border-left: 3px solid #764ba2;
-  font-size: 0.86em;
+  font-size: 0.88em;
   line-height: 2;
 
   code {
     background: white;
     border: 1px solid #ddd;
     border-radius: 4px;
-    padding: 1px 6px;
+    padding: 1px 7px;
     font-size: 0.88em;
     color: #764ba2;
-    margin: 2px 2px;
+    margin: 2px;
     display: inline-block;
     vertical-align: middle;
+    font-family: monospace;
   }
 }
 
-// --- Education Card ---
+// ---- 12. Education card ----
 .education-card {
   background: linear-gradient(135deg, #f8f4ff 0%, #f4f8ff 100%);
   border: 1px solid #d8d0f0;
@@ -95,17 +217,9 @@
     gap: 12px;
     margin-bottom: 10px;
 
-    .edu-icon {
-      font-size: 2em;
-      line-height: 1.2;
-      flex-shrink: 0;
-    }
+    .edu-icon { font-size: 2em; line-height: 1.2; flex-shrink: 0; }
 
-    .edu-info {
-      display: flex;
-      flex-direction: column;
-      gap: 3px;
-    }
+    .edu-info { display: flex; flex-direction: column; gap: 3px; }
 
     .edu-uni {
       display: block;
@@ -145,7 +259,7 @@
   }
 }
 
-// --- Scoped table styles (only inside .data-table wrapper) ---
+// ---- 13. Data table (achievements table only) ----
 .data-table {
   margin: 1rem 0;
 
@@ -172,28 +286,35 @@
   }
 }
 
-// --- Scoped blockquote (experience quote, not the theme header) ---
-.col-right blockquote,
-.page-content blockquote {
-  border-left: 4px solid #764ba2;
-  padding: 0.5rem 1rem;
-  background: linear-gradient(90deg, #f8f4ff 0%, transparent 100%);
-  color: #555;
-  font-style: italic;
-  margin: 0.8rem 0;
-  border-radius: 0 6px 6px 0;
-}
-
-// --- Footer ---
-footer {
-  background: linear-gradient(135deg, #2d1b69 0%, #11998e 100%);
+// ---- 14. Footer ----
+.footer-container {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  padding: 20px 0;
+  margin-top: 60px !important;
 
   p, a {
-    color: rgba(255, 255, 255, 0.9) !important;
+    color: rgba(255, 255, 255, 0.85) !important;
+    font-style: normal !important;
   }
 
   a:hover {
-    color: #ffeaa7 !important;
+    color: #c9b3ff !important;
     text-decoration: none;
   }
+}
+
+// ---- 15. Social icon buttons: hover accent ----
+.button--sacnite {
+  transition: background-color 0.25s ease, transform 0.2s ease !important;
+
+  &:hover {
+    background-color: #764ba2 !important;
+    transform: translateY(-2px);
+  }
+}
+
+// ---- 16. Wrapper padding ----
+.page-content > .wrapper {
+  padding-top: 20px;
+  padding-bottom: 40px;
 }

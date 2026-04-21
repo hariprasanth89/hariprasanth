@@ -33,9 +33,9 @@ about_profile_image: images/profile_hari.jpg
 about_content: |
   👋 **Hi, I'm Hari!**
 
-  🎯 A **Full Stack Software Engineer** with **13+ years** of experience building scalable, secure, and high-performance software at globally recognised companies.
+  Versatile Software Engineer **(Backend, Frontend, Site Reliability Engineering — SRE, and DevOps)**. Proven track record in architecting and operating **high-scale distributed systems** using **Java, Spring Boot**, and multi-cloud environments **(AWS, GCP, Azure)**. Expert in bridging the gap between feature delivery and system stability through **advanced CI/CD automation** and **REST API optimisation**, consistently delivering cost-effective, fault-tolerant solutions.
 
-  - 🔧 **Backend** — Java · Spring Boot · Node.js · Microservices
+  - 🔧 **Backend & SRE** — Java · Spring Boot · Node.js · Microservices · Distributed Systems
   - 🎨 **Frontend** — React · JavaScript · TypeScript · HTML/CSS
   - ☁️ **Cloud & DevOps** — AWS · GCP · Azure · Docker · Kubernetes · CI/CD
   - 🔐 **Security** — OAuth2 · SSO · API Keys · VPC Design
@@ -49,7 +49,7 @@ about_content: |
     <span class="cpill">🏦 Trie Coders</span>
   </div>
 
-  > ✨ *"Passionate about clean code, scalable architecture, and building software that makes a real difference."*
+  > ✨ *"Bridging feature delivery and system stability — building software that scales, performs, and endures."*
 
 content:
   - title: 🛠️ Tech Stack & Skills

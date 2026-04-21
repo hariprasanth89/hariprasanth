@@ -19,6 +19,7 @@ github_username: hariprasanth89
 linkedin_username: hariprasanth-venkatarama-chetty-19193723
 
 # Additional icon links
+# Note: linkedin_username and github_username above already auto-render those icons — not duplicated here
 additional_links:
 - title: Portfolio Website
   icon: fas fa-globe
@@ -26,12 +27,6 @@ additional_links:
 - title: Email Me
   icon: fas fa-envelope
   url: mailto:hariprasanth89@gmail.com
-- title: LinkedIn Profile
-  icon: fab fa-linkedin
-  url: https://www.linkedin.com/in/hariprasanth-venkatarama-chetty-19193723
-- title: GitHub Profile
-  icon: fab fa-github
-  url: https://github.com/hariprasanth89
 
 # About Section
 about_profile_image: images/profile_hari.jpg
@@ -104,14 +99,25 @@ content:
       </div>
 
       <div class="skill-group">
-        <h4>🗄️ Databases &amp; Messaging</h4>
+        <h4>🗄️ Databases</h4>
         <span class="skill-badge database">🐘 PostgreSQL</span>
         <span class="skill-badge database">🐬 MySQL</span>
         <span class="skill-badge database">🍃 MongoDB</span>
         <span class="skill-badge database">⚡ Redis</span>
         <span class="skill-badge database">📊 DynamoDB</span>
-        <span class="skill-badge database">📨 Kafka</span>
+        <span class="skill-badge database">🗃️ Oracle DB</span>
+      </div>
+
+      <div class="skill-group">
+        <h4>📨 Event Streaming &amp; Messaging</h4>
+        <span class="skill-badge kafka">📨 Apache Kafka</span>
+        <span class="skill-badge kafka">🔄 Kafka Streams</span>
+        <span class="skill-badge kafka">🔗 Kafka Connect</span>
+        <span class="skill-badge kafka">📤 Kafka Producer / Consumer</span>
+        <span class="skill-badge kafka">🗂️ Kafka Topics &amp; Partitions</span>
+        <span class="skill-badge kafka">🔁 Kafka Consumer Groups</span>
         <span class="skill-badge database">🐇 RabbitMQ</span>
+        <span class="skill-badge database">📬 AWS SQS / SNS</span>
       </div>
 
       <div class="skill-group">

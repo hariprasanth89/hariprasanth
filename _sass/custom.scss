@@ -5,9 +5,10 @@
 // --- About Hero Section ---
 .about-hero {
   .hero-greeting {
-    font-size: 1.6em;
+    font-size: 1.5em;
     font-weight: 700;
     margin-bottom: 0.5rem;
+    line-height: 1.3;
   }
 
   .hero-quote {
@@ -17,28 +18,27 @@
     border-radius: 0 8px 8px 0;
     font-style: italic;
     color: #555;
-    margin: 1.2rem 0;
+    margin: 1.2rem 0 0;
   }
 }
 
-// --- About Cards Grid ---
+// --- About Cards Grid (flexbox for reliable alignment) ---
 .about-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
   margin: 1.2rem 0;
-
-  @media (max-width: 600px) {
-    grid-template-columns: 1fr;
-  }
 }
 
 .about-card {
+  flex: 1 1 calc(50% - 10px);
+  min-width: 180px;
+  box-sizing: border-box;
   background: linear-gradient(135deg, #f8f9ff 0%, #fff8f8 100%);
   border: 1px solid #e8e0f0;
   border-radius: 10px;
-  padding: 14px 16px;
-  font-size: 0.92em;
+  padding: 12px 14px;
+  font-size: 0.9em;
   line-height: 1.5;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 
@@ -48,9 +48,15 @@
   }
 
   .card-icon {
-    font-size: 1.4em;
+    font-size: 1.3em;
     display: block;
     margin-bottom: 4px;
+    line-height: 1;
+  }
+
+  strong {
+    display: block;
+    margin-bottom: 2px;
   }
 }
 
@@ -75,40 +81,47 @@
 
 // --- Skills Section ---
 .skills-section {
-  .skill-group {
-    margin-bottom: 1.2rem;
+  width: 100%;
+}
 
-    h4 {
-      font-size: 1em;
-      font-weight: 700;
-      margin-bottom: 8px;
-      color: #333;
-    }
+.skill-group {
+  margin-bottom: 1.1rem;
+  width: 100%;
+
+  h4 {
+    font-size: 0.97em;
+    font-weight: 700;
+    margin: 0 0 7px 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.4;
   }
 }
 
 .skill-badge {
   display: inline-block;
-  padding: 5px 13px;
-  border-radius: 18px;
-  font-size: 0.82em;
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 0.8em;
   font-weight: 600;
-  margin: 3px 4px 3px 0;
+  margin: 3px 3px 3px 0;
   color: white;
   letter-spacing: 0.2px;
   transition: transform 0.15s ease, opacity 0.15s ease;
   cursor: default;
+  vertical-align: middle;
 
   &:hover {
     transform: translateY(-1px);
-    opacity: 0.9;
+    opacity: 0.88;
   }
 
   &.backend  { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
   &.frontend { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
   &.cloud    { background: linear-gradient(135deg, #4facfe 0%, #00c6fb 100%); }
-  &.devops   { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); color: #1a4a3a; }
+  &.devops   { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); color: #1a3d2e; }
   &.database { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); color: #3a1a00; }
+  &.kafka    { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); color: #e8b4ff; border: 1px solid #4a4a8a; }
   &.tools    { background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%); color: #3a1a3a; }
   &.arch     { background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); color: #5a2a10; }
 }
@@ -121,16 +134,18 @@
   border-radius: 6px;
   border-left: 3px solid #764ba2;
   font-size: 0.88em;
+  line-height: 2;
 
   code {
     background: white;
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 1px 6px;
-    font-size: 0.9em;
+    font-size: 0.88em;
     color: #764ba2;
-    margin: 2px;
+    margin: 2px 3px;
     display: inline-block;
+    vertical-align: middle;
   }
 }
 
@@ -139,53 +154,51 @@
   background: linear-gradient(135deg, #f8f4ff 0%, #f4f8ff 100%);
   border: 1px solid #d8d0f0;
   border-radius: 12px;
-  padding: 20px 24px;
+  padding: 18px 22px;
   margin-bottom: 1.5rem;
+  box-sizing: border-box;
 
   .edu-header {
     display: flex;
     align-items: flex-start;
-    gap: 14px;
-    margin-bottom: 14px;
+    gap: 12px;
+    margin-bottom: 12px;
 
     .edu-icon {
-      font-size: 2.2em;
-      line-height: 1;
+      font-size: 2em;
+      line-height: 1.2;
+      flex-shrink: 0;
     }
 
     h3 {
-      margin: 0 0 4px;
-      font-size: 1.2em;
+      margin: 0 0 3px;
+      font-size: 1.15em;
+      line-height: 1.3;
     }
 
     p {
       margin: 0;
       color: #666;
-      font-size: 0.9em;
+      font-size: 0.88em;
     }
   }
 
   .edu-details {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
   }
 
   .edu-row {
-    margin: 5px 0;
-    font-size: 0.95em;
+    margin: 4px 0;
+    font-size: 0.93em;
+    line-height: 1.5;
   }
 
   .edu-desc {
     color: #555;
-    font-size: 0.92em;
+    font-size: 0.91em;
     line-height: 1.6;
     margin: 0;
   }
-}
-
-// --- Section Title Enhancement ---
-.section-title,
-h2.section-title {
-  position: relative;
 }
 
 // --- Markdown table improvements ---
@@ -193,18 +206,20 @@ table {
   border-collapse: collapse;
   width: 100%;
   margin: 1rem 0;
-  font-size: 0.92em;
+  font-size: 0.9em;
 
   th {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    padding: 10px 14px;
+    padding: 9px 13px;
     text-align: left;
+    white-space: nowrap;
   }
 
   td {
-    padding: 9px 14px;
+    padding: 8px 13px;
     border-bottom: 1px solid #eee;
+    vertical-align: middle;
   }
 
   tr:nth-child(even) td {
@@ -239,7 +254,7 @@ footer {
   background: linear-gradient(135deg, #2d1b69 0%, #11998e 100%);
 
   p, a {
-    color: rgba(255,255,255,0.9) !important;
+    color: rgba(255, 255, 255, 0.9) !important;
   }
 
   a:hover {

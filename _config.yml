@@ -35,14 +35,19 @@ about_content: |
 
   🎯 A **Full Stack Software Engineer** with **13+ years** of experience building scalable, secure, and high-performance software at globally recognised companies.
 
-  🔧 **Backend** &nbsp;—&nbsp; Java · Spring Boot · Node.js · Microservices
-  🎨 **Frontend** &nbsp;—&nbsp; React · JavaScript · TypeScript · HTML/CSS
-  ☁️ **Cloud & DevOps** &nbsp;—&nbsp; AWS · GCP · Azure · Docker · Kubernetes · CI/CD
-  🔐 **Security** &nbsp;—&nbsp; OAuth2 · SSO · API Keys · VPC Design
-  🗄️ **Databases** &nbsp;—&nbsp; PostgreSQL · MySQL · MongoDB · Redis · DynamoDB
-  📨 **Messaging** &nbsp;—&nbsp; Apache Kafka · RabbitMQ · AWS SQS/SNS
+  - 🔧 **Backend** — Java · Spring Boot · Node.js · Microservices
+  - 🎨 **Frontend** — React · JavaScript · TypeScript · HTML/CSS
+  - ☁️ **Cloud & DevOps** — AWS · GCP · Azure · Docker · Kubernetes · CI/CD
+  - 🔐 **Security** — OAuth2 · SSO · API Keys · VPC Design
+  - 🗄️ **Databases** — PostgreSQL · MySQL · MongoDB · Redis · DynamoDB
+  - 📨 **Messaging** — Apache Kafka · RabbitMQ · AWS SQS/SNS
 
-  🏢 **Companies** — 💳 PayPal &nbsp;·&nbsp; 🌐 Cisco &nbsp;·&nbsp; 💰 Intuit &nbsp;·&nbsp; 🏦 Trie Coders
+  <div class="company-pills">
+    <span class="cpill">💳 PayPal</span>
+    <span class="cpill">🌐 Cisco</span>
+    <span class="cpill">💰 Intuit</span>
+    <span class="cpill">🏦 Trie Coders</span>
+  </div>
 
   > ✨ *"Passionate about clean code, scalable architecture, and building software that makes a real difference."*
 

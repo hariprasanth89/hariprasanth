@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Hariprasanth Venkataramachetty
-title: 🚀 Full Stack Engineer | 💳 @PayPal | Ex&#58; 🌐 Cisco · 💰 Intuit
+title: Full Stack Engineer 🚀 | PayPal 💳 | Ex-Cisco 🌐 · Intuit 💰
 email: hariprasanth89@gmail.com
 website: https://hariprasanth89.github.io/hariprasanth
 
@@ -19,7 +19,7 @@ github_username: hariprasanth89
 linkedin_username: hariprasanth-venkatarama-chetty-19193723
 
 # Additional icon links
-# Note: linkedin_username and github_username above already auto-render those icons — not duplicated here
+# linkedin_username and github_username already auto-render those icons — not repeated here
 additional_links:
 - title: Portfolio Website
   icon: fas fa-globe
@@ -31,116 +31,97 @@ additional_links:
 # About Section
 about_profile_image: images/profile_hari.jpg
 about_content: |
-  <div class="about-hero">
-  <p class="hero-greeting">👋 Hi there, I'm <strong>Hari</strong>!</p>
+  👋 **Hi, I'm Hari!**
 
-  <p>🎯 A <strong>Full Stack Software Engineer</strong> with <strong>13+ years</strong> of crafting scalable, secure, and high-performance software solutions across fintech, networking, and enterprise domains.</p>
+  🎯 A **Full Stack Software Engineer** with **13+ years** of experience building scalable, secure, and high-performance software at globally recognised companies.
 
-  <div class="about-grid">
-    <div class="about-card">
-      <span class="card-icon">🔧</span>
-      <strong>Backend</strong><br>Java · Spring Boot · Node.js · Microservices
-    </div>
-    <div class="about-card">
-      <span class="card-icon">🎨</span>
-      <strong>Frontend</strong><br>React · JavaScript · TypeScript · HTML/CSS
-    </div>
-    <div class="about-card">
-      <span class="card-icon">☁️</span>
-      <strong>Cloud &amp; DevOps</strong><br>AWS · GCP · Azure · Docker · CI/CD
-    </div>
-    <div class="about-card">
-      <span class="card-icon">🔐</span>
-      <strong>Security</strong><br>OAuth2 · SSO · API Keys · VPC Design
-    </div>
-  </div>
+  🔧 **Backend** &nbsp;—&nbsp; Java · Spring Boot · Node.js · Microservices
+  🎨 **Frontend** &nbsp;—&nbsp; React · JavaScript · TypeScript · HTML/CSS
+  ☁️ **Cloud & DevOps** &nbsp;—&nbsp; AWS · GCP · Azure · Docker · Kubernetes · CI/CD
+  🔐 **Security** &nbsp;—&nbsp; OAuth2 · SSO · API Keys · VPC Design
+  🗄️ **Databases** &nbsp;—&nbsp; PostgreSQL · MySQL · MongoDB · Redis · DynamoDB
+  📨 **Messaging** &nbsp;—&nbsp; Apache Kafka · RabbitMQ · AWS SQS/SNS
 
-  <div class="highlights-row">
-    <span class="highlight-pill">💳 PayPal</span>
-    <span class="highlight-pill">🌐 Cisco</span>
-    <span class="highlight-pill">💰 Intuit</span>
-    <span class="highlight-pill">🏦 Trie Coders</span>
-  </div>
+  🏢 **Companies** — 💳 PayPal &nbsp;·&nbsp; 🌐 Cisco &nbsp;·&nbsp; 💰 Intuit &nbsp;·&nbsp; 🏦 Trie Coders
 
-  <blockquote class="hero-quote">✨ <em>"Passionate about clean code, scalable architecture, and building software that makes a real difference."</em></blockquote>
-  </div>
+  > ✨ *"Passionate about clean code, scalable architecture, and building software that makes a real difference."*
 
 content:
-  - title: 🛠️ Tech Stack &amp; Skills
+  - title: 🛠️ Tech Stack & Skills
     layout: text
     content: |
 
       <div class="skills-section">
 
       <div class="skill-group">
-        <h4>💻 Languages &amp; Frameworks</h4>
-        <span class="skill-badge backend">☕ Java</span>
-        <span class="skill-badge backend">🍃 Spring Boot</span>
-        <span class="skill-badge frontend">⚛️ React</span>
-        <span class="skill-badge frontend">🟨 JavaScript</span>
-        <span class="skill-badge backend">🟢 Node.js</span>
-        <span class="skill-badge frontend">🔷 TypeScript</span>
-        <span class="skill-badge backend">📦 Hibernate / JPA</span>
-        <span class="skill-badge backend">⚙️ Spring Batch</span>
+      <p class="skill-label">💻 Languages & Frameworks</p>
+      <span class="skill-badge backend">☕ Java</span>
+      <span class="skill-badge backend">🍃 Spring Boot</span>
+      <span class="skill-badge frontend">⚛️ React</span>
+      <span class="skill-badge frontend">🟨 JavaScript</span>
+      <span class="skill-badge backend">🟢 Node.js</span>
+      <span class="skill-badge frontend">🔷 TypeScript</span>
+      <span class="skill-badge backend">📦 Hibernate / JPA</span>
+      <span class="skill-badge backend">⚙️ Spring Batch</span>
       </div>
 
       <div class="skill-group">
-        <h4>☁️ Cloud &amp; DevOps</h4>
-        <span class="skill-badge cloud">🟠 AWS Beanstalk</span>
-        <span class="skill-badge cloud">⚡ AWS Lambda</span>
-        <span class="skill-badge cloud">🗄️ AWS S3 / EC2</span>
-        <span class="skill-badge cloud">🔵 GCP</span>
-        <span class="skill-badge cloud">🔷 Azure</span>
-        <span class="skill-badge devops">🐳 Docker</span>
-        <span class="skill-badge devops">⚙️ Kubernetes</span>
-        <span class="skill-badge devops">🔁 Jenkins</span>
-        <span class="skill-badge devops">🚀 Harness</span>
-        <span class="skill-badge devops">🐙 Git / GitHub</span>
+      <p class="skill-label">☁️ Cloud & DevOps</p>
+      <span class="skill-badge cloud">🟠 AWS Beanstalk</span>
+      <span class="skill-badge cloud">⚡ AWS Lambda</span>
+      <span class="skill-badge cloud">🗄️ AWS S3 / EC2</span>
+      <span class="skill-badge cloud">🔵 GCP</span>
+      <span class="skill-badge cloud">🔷 Azure</span>
+      <span class="skill-badge devops">🐳 Docker</span>
+      <span class="skill-badge devops">⚙️ Kubernetes</span>
+      <span class="skill-badge devops">🔁 Jenkins</span>
+      <span class="skill-badge devops">🚀 Harness</span>
+      <span class="skill-badge devops">🐙 Git / GitHub</span>
       </div>
 
       <div class="skill-group">
-        <h4>🗄️ Databases</h4>
-        <span class="skill-badge database">🐘 PostgreSQL</span>
-        <span class="skill-badge database">🐬 MySQL</span>
-        <span class="skill-badge database">🍃 MongoDB</span>
-        <span class="skill-badge database">⚡ Redis</span>
-        <span class="skill-badge database">📊 DynamoDB</span>
-        <span class="skill-badge database">🗃️ Oracle DB</span>
+      <p class="skill-label">🗄️ Databases</p>
+      <span class="skill-badge database">🐘 PostgreSQL</span>
+      <span class="skill-badge database">🐬 MySQL</span>
+      <span class="skill-badge database">🍃 MongoDB</span>
+      <span class="skill-badge database">⚡ Redis</span>
+      <span class="skill-badge database">📊 DynamoDB</span>
+      <span class="skill-badge database">🗃️ Oracle DB</span>
       </div>
 
       <div class="skill-group">
-        <h4>📨 Event Streaming &amp; Messaging</h4>
-        <span class="skill-badge kafka">📨 Apache Kafka</span>
-        <span class="skill-badge kafka">🔄 Kafka Streams</span>
-        <span class="skill-badge kafka">🔗 Kafka Connect</span>
-        <span class="skill-badge kafka">📤 Kafka Producer / Consumer</span>
-        <span class="skill-badge kafka">🗂️ Kafka Topics &amp; Partitions</span>
-        <span class="skill-badge kafka">🔁 Kafka Consumer Groups</span>
-        <span class="skill-badge database">🐇 RabbitMQ</span>
-        <span class="skill-badge database">📬 AWS SQS / SNS</span>
+      <p class="skill-label">📨 Event Streaming & Messaging</p>
+      <span class="skill-badge kafka">📨 Apache Kafka</span>
+      <span class="skill-badge kafka">🔄 Kafka Streams</span>
+      <span class="skill-badge kafka">🔗 Kafka Connect</span>
+      <span class="skill-badge kafka">📤 Kafka Producer / Consumer</span>
+      <span class="skill-badge kafka">🗂️ Kafka Topics & Partitions</span>
+      <span class="skill-badge kafka">🔁 Kafka Consumer Groups</span>
+      <span class="skill-badge database">🐇 RabbitMQ</span>
+      <span class="skill-badge database">📬 AWS SQS / SNS</span>
       </div>
 
       <div class="skill-group">
-        <h4>🧪 Testing &amp; Tools</h4>
-        <span class="skill-badge tools">✅ JUnit</span>
-        <span class="skill-badge tools">🧪 Mockito</span>
-        <span class="skill-badge tools">📮 Postman</span>
-        <span class="skill-badge tools">📋 JIRA</span>
-        <span class="skill-badge tools">🔍 SonarQube</span>
-        <span class="skill-badge tools">📊 Grafana</span>
-        <span class="skill-badge tools">🔧 Maven / Gradle</span>
-        <span class="skill-badge tools">🧩 Lombok</span>
+      <p class="skill-label">🧪 Testing & Tools</p>
+      <span class="skill-badge tools">✅ JUnit</span>
+      <span class="skill-badge tools">🧪 Mockito</span>
+      <span class="skill-badge tools">📮 Postman</span>
+      <span class="skill-badge tools">📋 JIRA</span>
+      <span class="skill-badge tools">🔍 SonarQube</span>
+      <span class="skill-badge tools">📊 Grafana</span>
+      <span class="skill-badge tools">🔧 Maven / Gradle</span>
+      <span class="skill-badge tools">🧩 Lombok</span>
       </div>
 
       <div class="skill-group">
-        <h4>🏗️ Architecture &amp; Practices</h4>
-        <span class="skill-badge arch">🔗 Microservices</span>
-        <span class="skill-badge arch">🌐 REST / SOAP APIs</span>
-        <span class="skill-badge arch">🔐 OAuth2 / SSO</span>
-        <span class="skill-badge arch">📐 TDD / BDD</span>
-        <span class="skill-badge arch">🔄 Agile / Scrum</span>
-        <span class="skill-badge arch">🧠 System Design</span>
-        <span class="skill-badge arch">🏛️ DDD</span>
+      <p class="skill-label">🏗️ Architecture & Practices</p>
+      <span class="skill-badge arch">🔗 Microservices</span>
+      <span class="skill-badge arch">🌐 REST / SOAP APIs</span>
+      <span class="skill-badge arch">🔐 OAuth2 / SSO</span>
+      <span class="skill-badge arch">📐 TDD / BDD</span>
+      <span class="skill-badge arch">🔄 Agile / Scrum</span>
+      <span class="skill-badge arch">🧠 System Design</span>
+      <span class="skill-badge arch">🏛️ DDD</span>
       </div>
 
       </div>
@@ -149,42 +130,46 @@ content:
     layout: list
     content:
       - layout: left
-        title: 💳 PayPal
+        title: Worscape Inc. 🏢
         link: https://www.paypal.com
-        link_text: paypal.com · venmo.com
-        sub_title: 🚀 Full Stack Engineer
-        caption: 📅 October 2024 – Present
+        link_text: Client — PayPal 💳
+        sub_title: Full Stack Engineer 🚀
+        caption: October 2024 – Present
         quote: >
-          🌟 Powering the future of digital payments — building robust, secure, and scalable full-stack solutions at one of the world's leading fintech companies.
+          Deployed at PayPal — powering the future of digital payments with robust, secure, and scalable full-stack solutions at one of the world's leading fintech companies.
         description: |
-          🤝 **Collaboration** — Partnered with designers, QA, and business stakeholders via Agile/Scrum to ship high-impact payment features on schedule.
+          🏢 **Employer:** Worscape Inc. &nbsp;|&nbsp; 💳 **Client:** PayPal / Venmo
+
+          🤝 **Collaboration** — Partnered with designers, QA, and business stakeholders via Agile/Scrum to ship high-impact features on schedule.
 
           ☁️ **Cloud Deployment** — Built and deployed Spring Boot microservices on AWS Beanstalk, integrating REST and SOAP APIs for scalable payment services.
 
-          🔐 **Security &amp; Auth** — Implemented OAuth2 and SSO across ECM and payment platforms, securing millions of API transactions per day.
+          🔐 **Security & Auth** — Implemented OAuth2 and SSO across ECM and payment platforms, securing millions of API transactions per day.
 
-          🔁 **CI/CD Pipelines** — Automated builds and deployments using Jenkins and Harness with IAM roles and secure VPC configurations.
+          🔁 **CI/CD Pipelines** — Automated builds and deployments via Jenkins and Harness with IAM roles and secure VPC configurations.
 
-          ⚡ **Performance** — Boosted throughput via caching strategies, async data fetching, and microservice query optimization.
+          ⚡ **Performance** — Boosted throughput via caching strategies, async data fetching, and microservice query optimisation.
 
           🧑‍💻 **Code Quality** — Reviewed, tested, and shipped high-quality Java and Node.js code with thorough integration coverage.
 
           <div class="tech-stack-row"><strong>📌 Stack:</strong> <code>Java</code> <code>Spring Boot</code> <code>Node.js</code> <code>AWS</code> <code>OAuth2</code> <code>Jenkins</code> <code>Harness</code> <code>REST APIs</code></div>
 
       - layout: left
-        title: 🌐 Cisco
+        title: Worscape Inc. 🏢
         link: https://www.cisco.com
-        link_text: cisco.com
-        sub_title: 🔧 Full Stack Engineer
-        caption: 📅 September 2023 – September 2024
+        link_text: Client — Cisco 🌐
+        sub_title: Full Stack Engineer 🔧
+        caption: September 2023 – September 2024
         quote: >
-          🌐 Driving enterprise-scale backend modernization for Cisco's Estimates, Quoting, Ordering, and Subscriptions/Renewals platform.
+          Deployed at Cisco — driving enterprise-scale backend modernisation for the Estimates, Quoting, Ordering, and Subscriptions/Renewals platform.
         description: |
+          🏢 **Employer:** Worscape Inc. &nbsp;|&nbsp; 🌐 **Client:** Cisco
+
           🏗️ **Backend Architecture** — Built multi-layer services (Entity → DAO → Service → Controller) using Spring Boot and Hibernate for core business modules.
 
           🗄️ **Advanced ORM** — Leveraged Hibernate features including lazy loading, dirty checking, optimistic locking, and transaction management.
 
-          🧪 **TDD &amp; Quality** — Practiced Test-Driven Development with JUnit, pair programming, and daily Scrum ceremonies.
+          🧪 **TDD & Quality** — Practiced Test-Driven Development with JUnit, pair programming, and daily Scrum ceremonies.
 
           🌐 **RESTful APIs** — Designed and validated RESTful endpoints via Postman for client and third-party system integrations.
 
@@ -195,21 +180,23 @@ content:
           <div class="tech-stack-row"><strong>📌 Stack:</strong> <code>Java</code> <code>Spring Boot</code> <code>Hibernate</code> <code>React</code> <code>JUnit</code> <code>JIRA</code> <code>Git</code> <code>Postman</code></div>
 
       - layout: left
-        title: 💰 Intuit
+        title: Worscape Inc. 🏢
         link: https://www.intuit.com
-        link_text: intuit.com
-        sub_title: 🖥️ Full Stack Engineer
-        caption: 📅 February 2022 – August 2023
+        link_text: Client — Intuit 💰
+        sub_title: Full Stack Engineer 🖥️
+        caption: February 2022 – August 2023
         quote: >
-          💡 Designing and building full-stack financial applications that empower small businesses and individuals worldwide.
+          Deployed at Intuit — designing and building full-stack financial applications that empower small businesses and individuals worldwide.
         description: |
+          🏢 **Employer:** Worscape Inc. &nbsp;|&nbsp; 💰 **Client:** Intuit
+
           🏗️ **Full-Stack Architecture** — Architected complete backend layers (Entity/Model, DAO/Repository, Service, Controller) with Spring Boot and Hibernate ORM.
 
-          🗄️ **Database Design** — Created optimized schemas and integrated them with Hibernate for clean object-relational mapping.
+          🗄️ **Database Design** — Created optimised schemas and integrated them with Hibernate for clean object-relational mapping.
 
           📦 **Batch Processing** — Implemented Spring Batch pipelines to extract and load data from CSV/Excel files at scale.
 
-          🌐 **API &amp; UI** — Designed REST APIs validated via Postman; built responsive React frontends with clean state management.
+          🌐 **API & UI** — Designed REST APIs validated via Postman; built responsive React frontends with clean state management.
 
           ✅ **Testing** — Wrote comprehensive JUnit test suites achieving high code coverage and reliability.
 
@@ -218,66 +205,72 @@ content:
           <div class="tech-stack-row"><strong>📌 Stack:</strong> <code>Java</code> <code>Spring Boot</code> <code>Hibernate</code> <code>Spring Batch</code> <code>React</code> <code>JUnit</code> <code>JIRA</code> <code>Git</code></div>
 
       - layout: left
-        title: 🏦 Trie Coders Pvt Ltd.
+        title: Trie Coders Pvt Ltd. 🏦
         link: http://www.triecoders.com/
         link_text: triecoders.com
-        sub_title: 👨‍💻 Sr. Software Engineer
-        caption: 📅 December 2017 – November 2021
+        sub_title: Sr. Software Engineer 👨‍💻
+        caption: December 2017 – November 2021
         quote: >
-          🏦 Architecting reliable banking microservices — enabling customers to manage accounts, transactions, and finances seamlessly.
+          Based in India — deployed across Technotree, CTZ, and Cognizant, building reliable banking and telecom microservices.
         description: |
-          💳 **Banking Platform** — Developed a core banking app for managing accounts, transactions, and user information securely.
+          🏢 **Employer:** Trie Coders Pvt Ltd. &nbsp;|&nbsp; 🤝 **Clients:** Technotree · CTZ · Cognizant
 
-          🔧 **Microservices** — Optimized services using Lombok, built REST endpoints, and handled JSON flows between UI and API layers.
+          💳 **Banking & Telecom Platform** — Developed core banking apps and telecom modules enabling users to manage accounts, transactions, and personal information securely.
+
+          🔧 **Microservices** — Optimised services using Lombok, built REST endpoints, and handled JSON flows between UI and API layers.
 
           ☁️ **Cloud** — Deployed Java services on AWS Beanstalk with auto-scaling for high-availability production workloads.
 
-          🤝 **Team** — Participated in agile sprints, daily scrums, and cross-functional code reviews.
+          🤝 **Team** — Participated in agile sprints, daily scrums, and cross-functional code reviews across Cognizant and CTZ delivery teams.
 
           <div class="tech-stack-row"><strong>📌 Stack:</strong> <code>Java</code> <code>Spring Boot</code> <code>AWS Beanstalk</code> <code>REST APIs</code> <code>Lombok</code> <code>Git</code></div>
 
-  - title: 🎓 Education &amp; Achievements
+  - title: 🎓 Education & Achievements
     layout: text
     content: |
 
       <div class="education-card">
         <div class="edu-header">
           <span class="edu-icon">🏛️</span>
-          <div>
-            <h3>Sathyabama University</h3>
-            <p><a href="https://sathyabama.ac.in">sathyabama.ac.in</a> · Chennai, India</p>
+          <div class="edu-info">
+            <strong class="edu-uni">Sathyabama University</strong>
+            <span class="edu-location"><a href="https://sathyabama.ac.in">sathyabama.ac.in</a> — Chennai, India</span>
           </div>
         </div>
         <div class="edu-details">
-          <div class="edu-row">🎓 <strong>Degree:</strong> Bachelor of Engineering (B.E.)</div>
-          <div class="edu-row">📚 <strong>Major:</strong> Computer Science &amp; Engineering</div>
-          <div class="edu-row">📅 <strong>Years:</strong> 2007 – 2011</div>
+          <span class="edu-row">🎓 <strong>Degree:</strong> Bachelor of Engineering (B.E.)</span>
+          <span class="edu-row">📚 <strong>Major:</strong> Computer Science & Engineering</span>
+          <span class="edu-row">📅 <strong>Years:</strong> 2007 – 2011</span>
         </div>
-        <p class="edu-desc">Graduated with a strong foundation in algorithms, data structures, software engineering, and system design. Built the core skills that led to 13+ years of impactful engineering.</p>
+        <p class="edu-desc">Graduated with a strong foundation in algorithms, data structures, software engineering, and system design — skills that underpinned 13+ years of impactful engineering.</p>
       </div>
 
       ---
 
-      ### 🏆 Career Achievements &amp; Strengths
+      ### 🏆 Career Highlights
 
-      | 🏅 Achievement | 📝 Details |
-      |---|---|
-      | 🥇 **13+ Years Experience** | Delivered production-grade software at global companies |
-      | 💳 **Fintech Expert** | Deep experience with PayPal &amp; Intuit financial platforms |
-      | 🌐 **Enterprise Scale** | Cisco's global ordering &amp; quoting infrastructure |
-      | 🔐 **Security Champion** | OAuth2, SSO, API security, secure VPC design |
-      | 🧑‍🏫 **Mentorship** | Led engineers in Agile best practices and code reviews |
-      | 🌍 **Global Teams** | Proven collaboration with distributed remote teams |
+      <div class="data-table">
+
+      | 🏅 | Highlight | Detail |
+      |---|---|---|
+      | 🥇 | **13+ Years Experience** | Production-grade software at global companies |
+      | 💳 | **Fintech Expert** | Deep experience with PayPal & Intuit platforms |
+      | 🌐 | **Enterprise Scale** | Cisco's global ordering & quoting infrastructure |
+      | 🔐 | **Security Champion** | OAuth2, SSO, API security, secure VPC design |
+      | 🧑‍🏫 | **Mentorship** | Led engineers in Agile best practices & code reviews |
+      | 🌍 | **Global Teams** | Proven collaboration with distributed remote teams |
+
+      </div>
 
       ---
 
       ### 📜 Areas of Expertise
 
-      🔗 Microservices Architecture &amp; API Design
-      ☁️ AWS Cloud Deployment &amp; Infrastructure
-      🔐 Secure Authentication &amp; Authorization (OAuth2, SSO)
-      🔁 CI/CD Automation with Jenkins, Harness &amp; GitHub Actions
-      🗄️ SQL &amp; NoSQL Database Design &amp; Optimization
+      🔗 Microservices Architecture & API Design
+      ☁️ AWS Cloud Deployment & Infrastructure
+      🔐 Secure Authentication & Authorisation (OAuth2, SSO)
+      🔁 CI/CD Automation with Jenkins, Harness & GitHub Actions
+      🗄️ SQL & NoSQL Database Design & Optimisation
       ⚡ High-Performance Backend Systems
 
 # Footer

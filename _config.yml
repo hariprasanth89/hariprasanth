@@ -136,7 +136,7 @@ content:
         quote: >
           Deployed at PayPal — powering the future of digital payments with robust, secure, and scalable full-stack solutions at one of the world's leading fintech companies.
         description: |
-          🏢 **Employer:** Worscape Inc. &nbsp;|&nbsp; 💳 **Client:** PayPal / Venmo
+          💳 **Client:** PayPal / Venmo
 
           🤝 **Collaboration** — Partnered with designers, QA, and business stakeholders via Agile/Scrum to ship high-impact features on schedule.
 
@@ -161,7 +161,7 @@ content:
         quote: >
           Deployed at Cisco — driving enterprise-scale backend modernisation for the Estimates, Quoting, Ordering, and Subscriptions/Renewals platform.
         description: |
-          🏢 **Employer:** Worscape Inc. &nbsp;|&nbsp; 🌐 **Client:** Cisco
+          🌐 **Client:** Cisco
 
           🏗️ **Backend Architecture** — Built multi-layer services (Entity → DAO → Service → Controller) using Spring Boot and Hibernate for core business modules.
 
@@ -186,7 +186,7 @@ content:
         quote: >
           Deployed at Intuit — designing and building full-stack financial applications that empower small businesses and individuals worldwide.
         description: |
-          🏢 **Employer:** Worscape Inc. &nbsp;|&nbsp; 💰 **Client:** Intuit
+          💰 **Client:** Intuit
 
           🏗️ **Full-Stack Architecture** — Architected complete backend layers (Entity/Model, DAO/Repository, Service, Controller) with Spring Boot and Hibernate ORM.
 
@@ -211,7 +211,7 @@ content:
         quote: >
           Based in India — deployed across Technotree, CTZ, and Cognizant, building reliable banking and telecom microservices.
         description: |
-          🏢 **Employer:** Trie Coders Pvt Ltd. &nbsp;|&nbsp; 🤝 **Clients:** Technotree · CTZ · Cognizant
+          🤝 **Clients:** Technotree · CTZ · Cognizant
 
           💳 **Banking & Telecom Platform** — Developed core banking apps and telecom modules enabling users to manage accounts, transactions, and personal information securely.
 
